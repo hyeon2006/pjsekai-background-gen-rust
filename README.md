@@ -1,5 +1,9 @@
 # pjsekai-background-gen-rust / Rust 版プロセカ風背景生成ツール
 
+> [!WARNING]
+> このリポジトリはもうメンテナンスされません。
+> フォークを参照してください。
+
 [pjsekai_background_gen_pillow](https://github.com/sevenc-nanashi/pjsekai_background_gen_pillow)の置き換えです。
 
 ## 利用方法

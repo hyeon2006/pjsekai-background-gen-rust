@@ -69,25 +69,25 @@ pub fn render_v3(target: &image::RgbaImage) -> image::RgbaImage {
     let mut side_jackets = image::RgbaImage::new(base.width(), base.height());
     let left_normal = morph(
         target,
-        [(566, 161), (1183, 134), (633, 731), (1226, 682)],
+        [(546, 142), (1190, 114), (616, 737), (1235, 686)],
         (base.width(), base.height()),
     );
 
     let right_normal = morph(
         target,
-        [(966, 104), (1413, 72), (954, 525), (1390, 524)],
+        [(963, 83), (1430, 49), (951, 522), (1406, 521)],
         (base.width(), base.height()),
     );
 
     let left_mirror = morph(
         target,
-        [(633, 1071), (1256, 1045), (598, 572), (1197, 569)],
+        [(616, 1093), (1266, 1066), (579, 571), (1205, 568)],
         (base.width(), base.height()),
     );
 
     let right_mirror = morph(
         target,
-        [(954, 1122), (1393, 1167), (942, 702), (1366, 717)],
+        [(951, 1146), (1409, 1193), (938, 707), (1381, 723)],
         (base.width(), base.height()),
     );
 
@@ -100,13 +100,13 @@ pub fn render_v3(target: &image::RgbaImage) -> image::RgbaImage {
 
     let center_normal = morph(
         target,
-        [(824, 227), (1224, 227), (833, 608), (1216, 608)],
+        [(815, 211), (1233, 211), (825, 609), (1224, 609)],
         (base.width(), base.height()),
     );
 
     let center_mirror = morph(
         target,
-        [(830, 1017), (1214, 1017), (833, 676), (1216, 676)],
+        [(821, 1036), (1222, 1036), (825, 680), (1224, 680)],
         (base.width(), base.height()),
     );
 
